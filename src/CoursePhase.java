@@ -4,7 +4,7 @@ public enum CoursePhase {
     FINISHED ("Course has ended");
 
 
-    private String Message;
+    private final String Message;
 
      CoursePhase (String Message){
         this.Message = Message;
